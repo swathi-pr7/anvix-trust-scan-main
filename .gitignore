@@ -1,0 +1,55 @@
+```gitignore
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+
+# Python environments and generated files
+ml/venv/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Build output and caches
+dist/
+dist-ssr/
+.output/
+.vinxi/
+.tanstack/
+.nitro/
+coverage/
+
+# Large local datasets
+data/fake_job_postings.csv
+
+# Local configuration files
+*.local
+
+# Wrangler / Cloudflare
+.wrangler/
+.dev.vars
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+```
