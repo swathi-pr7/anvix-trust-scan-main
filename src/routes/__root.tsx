@@ -164,15 +164,15 @@ function RootComponent() {
         <div className="flex-1">
           <Outlet />
         </div>
-        <footer className="border-t border-border/60 bg-surface/30 py-4 text-center text-xs text-muted-foreground">
-          <span className="mono">
-            Developed by{" "}
-            <span className="text-foreground">Swathi P R</span>,{" "}
-            <span className="text-foreground">Subramanian V</span> &{" "}
-            <span className="text-foreground">Tiasa Roy Chowdhury</span> · ANVIX ©{" "}
-            {new Date().getFullYear()}
-          </span>
-        </footer>
+        
+<footer className="border-t border-border/60 bg-surface/30 py-4 text-center text-xs text-muted-foreground">
+  <span className="mono">
+    Developed by{" "}
+    <span className="text-foreground">Swathi P R</span> · ANVIX ©{" "}
+    {new Date().getFullYear()}
+  </span>
+</footer>
+
       </div>
       <Toaster theme="dark" position="top-right" />
     </QueryClientProvider>
